@@ -80,7 +80,7 @@ class Plugin extends PluginBase
     /**
      * Apply lazy loading to all applicable images in content.
      *
-     * @param ArrayObject $dataHolder
+     * @param \stdClass $dataHolder
      * @return void
      */
     protected function applyLazyLoading($dataHolder)
