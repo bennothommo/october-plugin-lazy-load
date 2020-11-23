@@ -1,0 +1,18 @@
+{
+    "name": "bennothommo/oc-lazyload-plugin",
+    "description": "Lazy load images by default in October CMS",
+    "type": "october-plugin",
+    "keywords": ["october", "plugin", "cms", "lazy", "loading", "images"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Thomson",
+            "email": "git@alfreido.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8",
+        "ivopetkov/html5-dom-document-php": "^2.2.7"
+    }
+}
