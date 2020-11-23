@@ -16,7 +16,7 @@ class Plugin extends PluginBase
             'name' => 'bennothommo.lazyload::lang.plugin.name',
             'description' => 'bennothommo.lazyload::lang.plugin.description',
             'author' => 'Ben Thomson',
-            'icon' => 'icon-picture'
+            'icon' => 'icon-picture-o'
         ];
     }
 
@@ -68,7 +68,7 @@ class Plugin extends PluginBase
 
         // Process images on loading page
         Event::listen('cms.page.postprocess', function ($controller, $url, $page, $dataHolder) {
-            $lazyLoad = (bool) $page->lazy_load ?? false;
+            $lazyLoad = (bool) $page->lazy_load ?? true;
             if ($lazyLoad) {
                 $this->applyLazyLoading($dataHolder);
             }
