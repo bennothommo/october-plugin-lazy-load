@@ -14,5 +14,6 @@
     "require": {
         "php": ">=7.0.8",
         "ivopetkov/html5-dom-document-php": "^2.2.7"
-    }
+    },
+    "abandoned": "bennothommo/wn-lazy-load-plugin"
 }
