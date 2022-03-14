@@ -1,3 +1,9 @@
+**Please note that this repository is no longer being maintained.**<br>
+Due to [a disagreement](https://github.com/wintercms/winter/issues/5) with the founders of October CMS, I will no longer be providing updates for the October CMS version of this plugin. I will keep the repository available for people to use, but will only be updating the [Winter CMS version](https://github.com/bennothommo/wn-lazy-load-plugin) of this plugin.
+
+---
+<br>
+
 # Lazy Loading plugin
 
 Makes October CMS pages lazy-load images by default. This uses the `loading="lazy"` attribute that is available as part
